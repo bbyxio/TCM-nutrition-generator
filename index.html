@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>TCM Nutrition & Diagnosis Generator</title>
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<div class="container">
+
+  <header>
+    <h1>TCM Nutrition & Diagnosis Generator</h1>
+
+    <p>
+      Educational Traditional Chinese Medicine
+      pattern differentiation and nutrition tool.
+    </p>
+  </header>
+
+  <!-- SYMPTOMS -->
+
+  <section class="section">
+
+    <h2>Symptoms</h2>
+
+    <p class="section-description">
+      Select all symptoms that apply.
+    </p>
+
+    <div class="checkbox-grid">
+
+      <!-- Spleen Qi -->
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="fatigue">
+        <label>Fatigue</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="poorAppetite">
+        <label>Poor Appetite</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="bloating">
+        <label>Bloating</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="looseStools">
+        <label>Loose Stools</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="postMealFatigue">
+        <label>Post-Meal Fatigue</label>
+      </div>
+
+      <!-- Spleen Yang -->
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="coldLimbs">
+        <label>Cold Limbs</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="feelingCold">
+        <label>Feeling Cold</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="edema">
+        <label>Edema</label>
+      </div>
+
+      <!-- Damp -->
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="heaviness">
+        <label>Heaviness</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="brainFog">
+        <label>Brain Fog</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="excessiveMucus">
+        <label>Excessive Mucus</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="stickyStools">
+        <label>Sticky Stools</label>
+      </div>
+
+      <!-- Liver Qi -->
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="irritability">
+        <label>Irritability</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="moodSwings">
+        <label>Mood Swings</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="sighing">
+        <label>Frequent Sighing</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="hypochondriacPain">
+        <label>Hypochondriac Pain</label>
+      </div>
+
+      <!-- Liver Fire -->
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="headaches">
+        <label>Headaches</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="redEyes">
+        <label>Red Eyes</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="angerOutbursts">
+        <label>Anger Outbursts</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="bitterTaste">
+        <label>Bitter Taste</label>
+      </div>
+
+      <!-- Liver Blood -->
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="dizziness">
+        <label>Dizziness</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="dryEyes">
+        <label>Dry Eyes</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="numbness">
+        <label>Numbness</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="scantyMenses">
+        <label>Scanty Menses</label>
+      </div>
+
+      <!-- Lung -->
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="weakVoice">
+        <label>Weak Voice</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="shortnessOfBreath">
+        <label>Shortness of Breath</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="spontaneousSweating">
+        <label>Spontaneous Sweating</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="frequentColds">
+        <label>Frequent Colds</label>
+      </div>
+
+      <!-- Lung Yin -->
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="dryCough">
+        <label>Dry Cough</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="dryThroat">
+        <label>Dry Throat</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="nightSweats">
+        <label>Night Sweats</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="drySkin">
+        <label>Dry Skin</label>
+      </div>
+
+      <!-- Kidney -->
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="lowLibido">
+        <label>Low Libido</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="lowerBackPain">
+        <label>Lower Back Pain</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="frequentUrination">
+        <label>Frequent Urination</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="tinnitus">
+        <label>Tinnitus</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="fivePalmHeat">
+        <label>Five-Palm Heat</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="symptoms" value="insomnia">
+        <label>Insomnia</label>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- TONGUE -->
+
+  <section class="section">
+
+    <h2>Tongue Findings</h2>
+
+    <div class="checkbox-grid">
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="tongue" value="pale">
+        <label>Pale</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="tongue" value="swollen">
+        <label>Swollen</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="tongue" value="teethMarks">
+        <label>Teeth Marks</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="tongue" value="red">
+        <label>Red</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="tongue" value="redSides">
+        <label>Red Sides</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="tongue" value="dry">
+        <label>Dry</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="tongue" value="greasyCoat">
+        <label>Greasy Coat</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="tongue" value="peeled">
+        <label>Peeled Coat</label>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PULSE -->
+
+  <section class="section">
+
+    <h2>Pulse Findings</h2>
+
+    <div class="checkbox-grid">
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="pulse" value="weak">
+        <label>Weak</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="pulse" value="deep">
+        <label>Deep</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="pulse" value="slippery">
+        <label>Slippery</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="pulse" value="wiry">
+        <label>Wiry</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="pulse" value="rapid">
+        <label>Rapid</label>
+      </div>
+
+      <div class="checkbox-item">
+        <input type="checkbox" name="pulse" value="thin">
+        <label>Thin</label>
+      </div>
+
+    </div>
+
+  </section>
+
+  <div class="button-container">
+    <button id="analyzeBtn">
+      Analyze Pattern
+    </button>
+  </div>
+
+  <section
+    id="results"
+    class="results-section">
+  </section>
+
+  <div class="footer">
+    TCM Nutrition & Diagnosis Generator
+  </div>
+
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
